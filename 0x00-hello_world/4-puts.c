@@ -3,11 +3,9 @@
 
 int main(void)
 {
-	char word;
+	char word[] = '"Programming is like building a multilingual puzzle';
 
-	word = "Programming is like building a multilingual puzzle
-	puts(word\n)
+	puts(word);
 
 	return (0);
 }
-
