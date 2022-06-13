@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
- * print_alphabet_x10 - fn that prints alphabet 10 times
+ * print_alphabet_x10 - a function that prints 10 times the alphabet
  *
  * Return: x10 a-z
  */
-
 void print_alphabet_x10(void)
 {
 	char alpha, co;
@@ -16,7 +14,7 @@ void print_alphabet_x10(void)
 	{
 		for (alpha = 'a'; alpha <= 'z'; alpha++)
 		{
-			_putchar(alpha);
+			_putchar (alpha);
 		}
 		co++;
 		_putchar('\n');
